@@ -1,0 +1,27 @@
+uuid: 5d5b8b71-1bb8-4a22-87c8-f11b1baa9422
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - deanhome_dxpr_theme
+_core:
+  default_config_hash: sOBfLFUB4t3yuAG5cmsbqVnN31761mx5SUHgrjS3Lpk
+id: deanhome_dxpr_theme_main_menu
+theme: deanhome_dxpr_theme
+region: navigation_collapsible
+weight: 10
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 9
+  expand_all_items: false
+visibility: {  }

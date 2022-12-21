@@ -1,0 +1,25 @@
+uuid: fd3d3a78-7b40-4a50-9f7f-acba374555e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - deanhome_dxpr_theme
+id: mainnavigation
+theme: deanhome_dxpr_theme
+region: secondary_header
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

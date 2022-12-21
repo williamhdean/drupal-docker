@@ -2,13 +2,13 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: 02053044-b95b-4478-9eaa-cab1d1cf14a9
-name: 'Drupal 10d'
-mail: admin@example.com
+name: DeanHome
+mail: bobby@deanhome.net
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

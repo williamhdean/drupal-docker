@@ -1,0 +1,22 @@
+uuid: 44c00c6b-7bef-4381-a846-56c7c3a6eba3
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - deanhome_dxpr_theme
+_core:
+  default_config_hash: mV9h_NNjjbPAWoq62QCf5yvnX3TeL4r49DFhFuRfidE
+id: deanhome_dxpr_theme_help
+theme: deanhome_dxpr_theme
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

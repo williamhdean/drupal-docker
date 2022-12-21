@@ -1,0 +1,20 @@
+uuid: 2026298a-7f13-47de-ab13-276e9bd9ac93
+langcode: en
+status: true
+dependencies:
+  theme:
+    - deanhome_dxpr_theme
+_core:
+  default_config_hash: 72nlwRjqiXBAwD4_Wzf9YVMhGeEnqWlHF8NS6KoI7Js
+id: deanhome_dxpr_theme_local_actions
+theme: deanhome_dxpr_theme
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

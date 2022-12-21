@@ -46,9 +46,8 @@ module:
   views: 10
   standard: 1000
 theme:
-  olivero: 0
   claro: 0
   bootstrap5: 0
   dxpr_theme: 0
-  dxpr_theme_STARTERKIT: 0
+  deanhome_dxpr_theme: 0
 profile: standard

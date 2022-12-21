@@ -1,0 +1,22 @@
+uuid: 92be2d9c-c0af-4b24-a4a7-7b76962dae36
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - deanhome_dxpr_theme
+_core:
+  default_config_hash: FR6TscQ_wWvu_Oif0Ha6seHBgJwsupKvwisRs1yTxYw
+id: deanhome_dxpr_theme_content
+theme: deanhome_dxpr_theme
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

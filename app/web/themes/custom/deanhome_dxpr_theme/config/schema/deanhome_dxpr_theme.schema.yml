@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the DeanHome Theme theme.
+
+deanhome_dxpr_theme.settings:
+  type: theme_settings
+  label: 'DeanHome Theme settings'

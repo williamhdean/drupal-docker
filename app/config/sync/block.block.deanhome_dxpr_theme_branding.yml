@@ -1,0 +1,25 @@
+uuid: 8be26f9a-4f42-46ce-a815-262b84706cfc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - deanhome_dxpr_theme
+_core:
+  default_config_hash: lOdPdXWPbE5QLAuSRidWj90DTENmQzKLeNjvr64juyo
+id: deanhome_dxpr_theme_branding
+theme: deanhome_dxpr_theme
+region: navigation
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }
