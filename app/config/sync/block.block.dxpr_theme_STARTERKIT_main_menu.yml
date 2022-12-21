@@ -1,0 +1,27 @@
+uuid: ddf20b38-1bee-4314-9e61-a492e6e099e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - dxpr_theme_STARTERKIT
+_core:
+  default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
+id: dxpr_theme_STARTERKIT_main_menu
+theme: dxpr_theme_STARTERKIT
+region: secondary_header
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

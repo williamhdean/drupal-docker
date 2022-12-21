@@ -7,12 +7,14 @@ module:
   block_content: 0
   breakpoint: 0
   ckeditor5: 0
+  color: 0
   comment: 0
   config: 0
   contact: 0
   contextual: 0
   datetime: 0
   dblog: 0
+  dxpr_theme_helper: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -46,4 +48,7 @@ module:
 theme:
   olivero: 0
   claro: 0
+  bootstrap5: 0
+  dxpr_theme: 0
+  dxpr_theme_STARTERKIT: 0
 profile: standard
