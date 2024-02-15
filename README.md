@@ -1,12 +1,12 @@
-# Deansal powered Drupal 9 With Composer Installation
+# Deansal powered Drupal 10 Composer Installation
 
-This is a sample Drupal 9 with Composer installation pre-configured for use with Deansal.
+This is a sample Drupal 10 with Composer installation pre-configured for use with Deansal.
 
 Features:
 
-- Drupal 9 Composer Project
+- Drupal 10 Composer Project
 - PHP
-- MySQL
+- MySQL (removed for now)
 
 ## Setup instructions
 
